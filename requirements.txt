@@ -1,0 +1,13 @@
+torch==2.10.0+cu128
+torchvision==0.25.0+cu128
+torchaudio==2.10.0+cu128
+matplotlib==3.10.0
+scikit-learn==1.6.1
+streamlit==1.57.0
+opendatasets==0.1.22
+onnx==1.20.1
+onnx2tf==2.4.0
+tensorflow==2.20.0
+numpy==1.26.4
+pillow==11.3.0
+pandas==2.2.2
