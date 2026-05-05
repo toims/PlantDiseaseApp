@@ -2,7 +2,7 @@ import os
 from evaluate_robustness_fundefine import evaluate_robustness
 
 if os.path.exists('./classes/classes.txt'):
-    with open('classes.txt', 'r') as f:
+    with open('.classes/classes.txt', 'r') as f:
         class_names = [line.strip() for line in f.readlines()]
     print(f"成功加载类别: {len(class_names)} 个")
 else:
